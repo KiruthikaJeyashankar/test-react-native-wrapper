@@ -29,6 +29,6 @@ public class TestingReactNativeLibNativeModule extends ReactContextBaseJavaModul
   @ReactMethod
   public void multiply(double a, double b, Promise promise) {
 
-    Multiply.multiply(2,3);
+    Multiply.Companion.multiply(2,3);
   }
 }
